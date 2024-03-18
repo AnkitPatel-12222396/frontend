@@ -1,0 +1,10 @@
+Frontend development involves crafting the user-facing portion of websites, utilizing three fundamental technologies:
+1.HTML
+2.CSS
+3.JavaScript
+
+HTML: This markup language provides the structure of a webpage, employing elements and tags to organize content.
+
+CSS: Cascading Style Sheets enable the aesthetic customization of webpages, facilitating tasks such as adjusting spacing, color schemes, and element positioning.
+
+JavaScript: This scripting language empowers the addition of interactive elements and enables dynamic responses to user actions, enhancing the overall user experience.
