@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to CSS</title>
     <style>
-        /* h1{
-            color: royalblue;
+        /* This is styling based on class name */
+        .royalblue{
+            color:royalblue;
+        }
+        /* This is a element styling */
+        h1{
+            color: red;
             font: 40px;
-        } */
-        /* # is used to style anything with its id name.It helps us to style the single content instead of entire same format like above. */
+        }
+        /* # is used to style anything with its id name.It helps us to style the single content inside the element tag instead of entire same format element like above. */
         #first_heading{
             color:aqua;    
-        }
+        }  
     </style>
 </head>
 <body>
     <h1 id="first_heading" >This is heading</h1>
     <h1>This is another heading</h1>
-    <h1>This is 3rd heading</h1>
+    <h1 class="royalblue">This is 3rd heading</h1>
 </body>
 </html>

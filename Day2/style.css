@@ -1,0 +1,13 @@
+/* This is styling based on class name */
+.royalblue{
+    color:royalblue;
+}
+/* This is a element styling */
+h1{
+    color: red;
+    font: 40px;
+}
+/* # is used to style anything with its id name.It helps us to style the single content inside the element tag instead of entire same format element like above. */
+#first_heading{
+    color:aqua;    
+}  
