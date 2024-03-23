@@ -2,12 +2,35 @@
 .royalblue{
     color:royalblue;
 }
+
 /* This is a element styling */
 h1{
     color: red;
-    font: 40px;
+    font: 30px;
 }
+
 /* # is used to style anything with its id name.It helps us to style the single content inside the element tag instead of entire same format element like above. */
 #first_heading{
     color:aqua;    
 }  
+
+.box{
+    background-color: aqua;
+    /* this section is commented so that text can use height and width as neccesary. */
+    /* height: 100px;
+    width: 100px; */
+    /* In padding,border,margin we can assign the values for all side at once or assign each part of its own. */
+    /* in this case we have to provide values in order as"TRBL"i.e.top,right,bottom,left. */
+    padding: 12px;
+
+    /* here in radius section the line of code that is in the last have the precedence over the upper line of code. */
+    border:2px solid;
+    /* border-top-right-radius: 24px; */
+    border-radius: 12px;
+    /* border-top-left-radius: 24px; */
+    /* this line add a space of specified pixel between to element such that they do not stick together.*/
+    /* margin:12px; */
+
+    margin:12px 20px 15px 24px ;
+    margin-trim: 12px;
+}

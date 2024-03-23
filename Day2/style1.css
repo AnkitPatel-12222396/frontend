@@ -1,0 +1,10 @@
+#red-color{
+    color: red;
+
+}
+/* for font size we can use px,em,rem. */
+/* em and rem is a relative font sizing method whereas px is not. */
+/* em is help too size font relative to multiple of its element font size whereas rem is relative to its head font size */
+p{
+    font-size: 2rem;
+}
