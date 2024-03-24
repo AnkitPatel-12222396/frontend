@@ -1,0 +1,19 @@
+In frontend we can use operators in javascript.
+1->for addition
+#for increasing by one 
+    num=num+1;
+    num+=1;
+    num++;
+#for adding a integer var x 
+    num = num+var; 
+    num+=var;
+2->for substaction
+#for decreasing by one 
+    num=num-1;
+    num-=1;
+    num--;
+#for adding a integer var x 
+    num = num-var; 
+    num-=var;
+
+Similarly,we can extend it use in multiplication and division.
