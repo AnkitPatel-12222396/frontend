@@ -1,6 +1,6 @@
  In javascript a string can be written in single or double quotes.
 
- To convert a datatype into string we use "toString"
+ To convert a datatype into string we use "toString()"
 //  let num1 = 5;
 //  num1.toString();
 //  result = '5';
@@ -8,11 +8,11 @@
 //false.toString();
 //result ='false';
 
-To convert into Integer we can use  parseInt(value)
+To convert into Integer we can use  "parseInt(value)"
 //pasreInt('5');
 //result = 5;
 
-To convert into boolean we can use Boolean(value)
+To convert into boolean we can use "Boolean(value)"
 //Boolean(0);
 //result = false;
 //Boolean(1);
