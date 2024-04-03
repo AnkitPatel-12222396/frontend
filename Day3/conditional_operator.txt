@@ -1,0 +1,7 @@
+let num1=5;
+let num2 = 2;
+num1 > num2 //result true
+num1 >= num2 //result true
+num1 < num2  //result false
+num1 <= num2  //result false
+num1 == num2  //result false
