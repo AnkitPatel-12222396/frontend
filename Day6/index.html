@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Semantic HTML</title>
+    <style>
+        p{
+            color:aquamarine;
+        }
+        .class-level{
+            color:blueviolet;
+            /* color:burlywood !important; */
+             /*This important tagmakes the above code applicable in any case.To use another style by overwriting this that style must also have important in its code. */
+        }
+        #id-level{
+            color:coral;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: royalblue;" id="id-level" class="class-level">This text is for CSS Specificity.</p>
+</body>
+</html>
+
+
+
+
+
+
