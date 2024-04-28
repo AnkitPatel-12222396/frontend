@@ -18,7 +18,3 @@ In frontend we can use operators in javascript.
 
 
 Similarly,we can extend it use in multiplication and division.
-num = num*var; 
-    num*=var;
-    num = num/var; 
-    num/=var;
