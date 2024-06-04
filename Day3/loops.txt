@@ -1,0 +1,28 @@
+//While loop
+let index =1;
+while(index<=10){
+    console.log(index);
+    index++;
+    //prints 1 to 10
+}
+
+//do-while loop
+//this lop is used to execute a program atleast once even if conditions are not met
+do{
+    console.log(index);
+    index++;
+}while(index<=10);
+
+
+//for loop 
+//for(value,conditions,updation)
+for(let i=1;i<10;i++){
+    console.log(i);
+
+}
+
+let name = "ankit"
+for(int i=0;i<name.length;i++){
+    console.log(name.charAt(i));
+}
+

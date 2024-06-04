@@ -1,0 +1,62 @@
+//to define an array we use const variable
+//here,we can have difff data types in the same array
+const num = [1,3,5,3,6,7,2]
+const day = ["mon","tue","wed","thur"]
+const diff = ["me",2,true,"studying"]
+//similarly  we can directly create an array with let
+let array = [1,5,7]
+
+//accessing
+//we can access these element through their index.Indexes start from o to length-1
+
+//to find length we use length function
+
+num[0]  //1
+num.length  //6
+day[2]  //wed
+
+//replacing or substituing element with new value
+array[1] = 3;
+array  //[1,3,7]
+
+//adding extra element or deleting existing element 
+//to add element we use push 
+array.push(12)
+array.push(14,45,23)
+
+// to delete element we use pop function
+//when we use pop it deletes last element
+array.pop()
+
+//for of 
+// this allow access of each element of an array one by one without using its index
+
+let evenNum = []
+let oddNum =[]
+for(let num of array){
+    if(num%2==0){
+        evenNum.push(num)
+    }
+    else{
+        oddNum.push(num)
+    }
+}
+
+
+//for in
+//we use for in to print all the index of the array
+for(let i in array){
+    console.log(i)  //prints index
+    console.log(array[i])  //prints element
+}
+
+
+//concat and slice
+//we use concat to add two array whereas slice divides array into two 
+
+evenNum.concat(oddNum)
+
+array.slice(0,4)  //prints foru element starting from index 0 to 3
+array.slice(4,array.length) //print element fromindex 4 till last
+array.slice(-1)  //prints last element 
+array.slice(-2)  //prints last two element

@@ -17,3 +17,19 @@ To convert into boolean we can use "Boolean(value)"
 //result = false;
 //Boolean(1);
 //result = true;
+//boolean("");
+//result=false;
+//Boolean('a')
+//result=true
+
+
+TYPE__COERCION
+let str1="ankit ";
+let str2="patel";
+str1+str2;   //"ankit patel"
+"ankit"+1;   //"ankit1"
+"1"+1;   //"11"
+parseInt("1")+1 ;   //2
+"1"-1;   //0
+"2" -1;  //1
+"2" -"a";  //NaN
